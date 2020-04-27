@@ -1,0 +1,21 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {
+    "sails-util-micro-apps": "^1.1.1"
+  },
+  "deprecated": false,
+  "description": "A printer plugin for fog 2.0",
+  "fog": {
+    "isPlugin": true
+  },
+  "main": "index.js",
+  "name": "fog-plugin-print",
+  "private": true,
+  "sails": {
+    "isHook": true
+  },
+  "scripts": {
+    "test": "node ../node_modules/mocha/bin/mocha test/**/*.test.js"
+  },
+  "version": "0.0.1"
+}
