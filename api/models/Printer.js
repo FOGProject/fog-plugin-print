@@ -5,6 +5,9 @@ module.exports = {
       required: true,
       unique: true
     },
+    description: {
+      type: 'string'
+    },
     type: {
       type: 'string',
       required: true
