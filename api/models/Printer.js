@@ -15,6 +15,12 @@ module.exports = {
     vars: {
       type: 'json',
       required: true
+    },
+    hosts: {
+      collection: 'host'
+    },
+    groups: {
+      colleciton: 'group'
     }
   }
 }
